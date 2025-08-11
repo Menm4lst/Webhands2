@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Preguntas Frecuentes | Manos al Site</title>
+
+  <!-- Librerías ya usadas en tu sitio -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header (igual al de tu sitio, con FAQs activo) -->
+  <header id="header">
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <i class="fas fa-code logo-icon"></i>
+          Manos al <span>Site</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html#inicio">Inicio</a></li>
+          <li><a href="index.html#servicios">Servicios</a></li>
+          <li><a href="index.html#planes">Planes</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#testimonios">Testimonios</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+          <li><a href="faqs.html" class="active">FAQs</a></li>
+        </ul>
+        <div class="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sub-hero simple para la página -->
+  <section class="subhero">
+    <div class="container">
+      <h1 class="animate__animated animate__fadeInDown">Preguntas frecuentes</h1>
+      <p class="animate__animated animate__fadeInUp animate__delay-1s">
+        Todo lo que suelen consultarnos antes de empezar.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+<section class="faqs" id="faqs">
+  <div class="container">
+    <div class="faq-list" role="list">
+      <!-- 1 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq1">
+          <span><i class="fas fa-question-circle"></i> ¿Cuánto tarda un sitio en estar online?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq1" class="faq-answer" hidden>
+          <p>Arrancamos rápido: <strong>Básico</strong> en 1–2 semanas, <strong>Pro</strong> en 2–4, y <strong>Premium/e-commerce</strong> en 4–8. El ritmo lo marca qué tan pronto nos compartís textos e imágenes. ¿Listo para empezar hoy?</p>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq2">
+          <span><i class="fas fa-question-circle"></i> ¿Incluye dominio y hosting?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq2" class="faq-answer" hidden>
+          <p>Sí: todos los planes incluyen <strong>hosting + SSL</strong> para que tu web sea <em>segura y rápida</em>. El dominio puede quedar a tu nombre (recomendado) y te guiamos en todo el proceso en minutos.</p>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq3">
+          <span><i class="fas fa-question-circle"></i> ¿Puedo autogestionar textos e imágenes?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq3" class="faq-answer" hidden>
+          <p>En <strong>Premium</strong> tenés <strong>CMS</strong> para editar tu web sin pedirnos cambios. Si elegís <strong>Básico</strong> o <strong>Pro</strong>, <em>nosotros</em> hacemos los ajustes mensuales incluidos. Elegí comodidad o control total: vos decidís.</p>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq4">
+          <span><i class="fas fa-question-circle"></i> ¿Cómo es el proceso de trabajo?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq4" class="faq-answer" hidden>
+          <p><strong>Brief</strong> (entendemos tu negocio) → <strong>Propuesta visual</strong> (vos aprobás) → <strong>Desarrollo</strong> → <strong>Pruebas</strong> → <strong>Publicación</strong>. Salimos con <strong>velocidad + SEO básico</strong> para que empieces a convertir desde el día 1.</p>
+        </div>
+      </div>
+      <!-- 5 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq5">
+          <span><i class="fas fa-question-circle"></i> ¿Qué soporte tengo después del lanzamiento?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq5" class="faq-answer" hidden>
+          <p><strong>Básico</strong>: 1 ajuste/mes por email. <strong>Pro</strong>: soporte prioritario, hasta 3 actualizaciones y <em>backups</em>. <strong>Premium</strong>: monitoreo, seguridad avanzada y <strong>reportes</strong>. No te dejamos solo: tu web siempre al día.</p>
+        </div>
+      </div>
+      <!-- 6 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq6">
+          <span><i class="fas fa-question-circle"></i> ¿Puedo sumar tienda online más adelante?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq6" class="faq-answer" hidden>
+          <p>Claro. En <strong>Pro</strong> podemos sumar un catálogo simple como add-on. En <strong>Premium</strong> activamos <strong>e-commerce completo</strong> con checkout, pagos y envíos. Empezá simple y escalá cuando lo necesites.</p>
+        </div>
+      </div>
+      <!-- 7 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq7">
+          <span><i class="fas fa-question-circle"></i> ¿Quién es dueño del sitio y los archivos?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq7" class="faq-answer" hidden>
+          <p>Vos. Los archivos del sitio y los contenidos son tuyos. Nosotros administramos y optimizamos según el plan para que todo funcione perfecto.</p>
+        </div>
+      </div>
+      <!-- 8 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq8">
+          <span><i class="fas fa-question-circle"></i> ¿Cómo coordinamos cambios y nuevas secciones?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq8" class="faq-answer" hidden>
+          <p>Canales simples: <strong>WhatsApp o email</strong>. En <strong>Básico/Pro</strong> pedís y ejecutamos; en <strong>Premium</strong> podés editar desde el CMS y nosotros cuidamos la calidad.</p>
+        </div>
+      </div>
+      <!-- 9 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq9">
+          <span><i class="fas fa-question-circle"></i> ¿Puedo pagar en cuotas?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq9" class="faq-answer" hidden>
+          <p>Sí, trabajamos con <strong>Mercado Pago</strong> y transferencias. Te armamos el esquema más cómodo para que avanzar sea fácil.</p>
+        </div>
+      </div>
+      <!-- 10 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq10">
+          <span><i class="fas fa-question-circle"></i> ¿Qué necesito para empezar?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq10" class="faq-answer" hidden>
+          <p>Logo (si tenés), textos iniciales, imágenes y tus datos de contacto. Si te falta algo, lo resolvemos juntos: también podemos redactar y seleccionar imágenes por vos.</p>
+        </div>
+      </div>
+      <!-- 11 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq11">
+          <span><i class="fas fa-question-circle"></i> ¿Qué pasa si dejo de pagar el plan mensual?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq11" class="faq-answer" hidden>
+            <p>El sitio se mantiene online, pero se suspende el <strong>soporte</strong>, las <strong>actualizaciones</strong> y el <strong>hosting</strong> (si estaba incluido en el plan). A partir del mes siguiente al impago, se suman <strong>recargos</strong>. Si pasan 2 meses sin abonar, la web se da de baja y se elimina del servidor.</p>
+        </div>
+      </div>
+      <!-- 12 (extra de confianza) -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq12">
+          <span><i class="fas fa-question-circle"></i> ¿Garantizan rendimiento y velocidad?</span>
+          <i class="faq-icon fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="faq12" class="faq-answer" hidden>
+          <p>Entregamos con <strong>buenas prácticas</strong> (optimización de imágenes, caché y SEO básico). Medimos con herramientas estándar y ajustamos antes de publicar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer (conservando el área de redes sociales) -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Manos al Site</h3>
+          <p class="footer-note">Diseñamos y desarrollamos sitios web enfocados en resultados: velocidad, SEO y una experiencia que convierte.</p>
+        </div>
+        <div class="footer-column">
+          <h3>Horarios</h3>
+          <ul class="footer-links footer-hours">
+            <li><span class="day">Lun&nbsp;–&nbsp;Sáb</span> <span class="time">09:00&nbsp;–&nbsp;18:00</span></li>
+            <li><span class="day">Domingo</span> <span class="time closed">Cerrado</span></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contacto</h3>
+          <ul class="footer-links">
+            <li><a href="mailto:manosalsite@gmail.com">manosalsite@gmail.com</a></li>
+            <li><a href="tel:+54911171336765">+54 9 11 7133-6765</a></li>
+            <li><a href="https://wa.me/5491171336765" target="_blank" rel="noopener">WhatsApp</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Redes</h3>
+          <div class="social-links">
+            <a href="https://facebook.com/manosalsite" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com/manosalsite" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+              <i class="fab fa-instagram"></i>
+            </a>
+            </a>
+            <a href="https://wa.me/5491171336765" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; <span id="year"></span> Manos al Site. Todos los derechos reservados. Diseñado con 
+          <i class="fas fa-heart" style="color: #f59e0b;"></i> por nuestro equipo.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS: menú móvil + header + acordeón FAQ + año -->
+  <script>
+    // Header scroll effect
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    });
+
+    // Menú móvil
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+    mobileMenu.addEventListener('click', function() {
+      navLinks.classList.toggle('active');
+      mobileMenu.classList.toggle('fa-times');
+    });
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+          navLinks.classList.remove('active');
+          mobileMenu.classList.remove('fa-times');
+        }
+      });
+    });
+
+    // FAQs acordeón
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        const targetId = btn.getAttribute('aria-controls');
+        const panel = document.getElementById(targetId);
+        btn.setAttribute('aria-expanded', String(!expanded));
+        panel.hidden = expanded;
+        btn.closest('.faq-item').classList.toggle('open', !expanded);
+      });
+    });
+
+    // Año dinámico
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
